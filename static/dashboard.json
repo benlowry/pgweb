@@ -1,0 +1,36 @@
+{
+  "title": "PGWeb the app",
+  "description": "This is a web UI for managing PostgreSQL servers with saved bookmarks.",
+  "home": "${SERVER_ADDRESS}/home",
+  "icon": "${SERVER_ADDRESS}/public/app.png",
+  "icons": [],
+  "screenshots": [
+    "${SERVER_ADDRESS}/public/screenshot1.jpg",
+    "${SERVER_ADDRESS}/public/screenshot2.jpg",
+    "${SERVER_ADDRESS}/public/screenshot3.jpg"
+  ],
+  "author": {
+    "name": "Ben Lowry",
+    "email": "benlowry@outlook.com",
+    "github": "benlowry"
+  },
+  "header": {
+    "backgroundColor": "#160E1F",
+    "textColor": "#8C8791"
+  },
+  "navbar": {
+    "backgroundColor": "#2F1F42",
+    "textColor": "#A7A8B2"
+  },
+  "connect": {
+    "localhost:8000": "acct_1BK85gJEtCsUKsvx"
+  },
+  "import": {
+    "userappstore.com": true,
+    "localhost:8000": true
+  },
+  "publish": {
+    "userappstore.com": true,
+    "localhost:8000": true
+  }
+}
